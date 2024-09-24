@@ -1,0 +1,2073 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zip Recipes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-18 10:06+0100\n"
+"PO-Revision-Date: 2020-11-18 09:09+0000\n"
+"Last-Translator: Rogier Lankhorst\n"
+"Language-Team: Dutch (Belgium)\n"
+"Language: nl_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: zip-recipes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.4.3; wp-5.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: NutritionLabel/NutritionLabel.php:29
+#, php-format
+msgid "Nutrition label for %s"
+msgstr "Voedingswaarde label voor %s"
+
+#: NutritionLabel/class-shortcode.php:11 class-field.php:17 class-review.php:13
+#: plugins/ImperialMetricsConverter/class-geoip.php:28
+#: plugins/MostPopularRecipes/class-shortcode.php:11
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s is een singleton class en je kunt geen tweede instantie creeren."
+
+#: NutritionLabel/widget.php:16 class.ziprecipes.php:742
+msgid "Nutrition Label"
+msgstr "Voedingswaarde label"
+
+#: NutritionLabel/widget.php:17
+msgid "Show the Nutrition Label for a recipe"
+msgstr "Laat het voedingswaarde label zien voor een recept"
+
+#: NutritionLabel/widget.php:55 class.ziprecipes.php:749
+msgid "Nutrition info"
+msgstr "Voedingswaarde info"
+
+#: RecipeTable/RecipeMenu.php:254 RecipeTable/RecipeMenu.php:255
+#: RecipeTable/class-recipe-table.php:77 class.ziprecipes.php:135
+msgid "Recipes"
+msgstr "Recepten"
+
+#: RecipeTable/RecipeMenu.php:265 RecipeTable/RecipeMenu.php:266
+#: class.ziprecipes.php:139 class.ziprecipes.php:1235
+msgid "Template"
+msgstr "Sjabloon"
+
+#: RecipeTable/RecipeMenu.php:274 RecipeTable/RecipeMenu.php:275
+#: class.ziprecipes.php:143 class.ziprecipes.php:215 class.ziprecipes.php:1220
+#: shepherd/tour.php:101
+msgid "Settings"
+msgstr "Instellingen"
+
+#: RecipeTable/RecipeMenu.php:358 class.ziprecipes.php:516
+msgid "clear image"
+msgstr "verwijder afbeelding"
+
+#: RecipeTable/RecipeMenu.php:362
+msgid "minutes"
+msgstr "minuten"
+
+#: RecipeTable/RecipeMenu.php:363
+msgid "hours"
+msgstr "uren"
+
+#: RecipeTable/RecipeMenu.php:462
+msgid "My Recipes"
+msgstr "Mijn recepten"
+
+#: RecipeTable/RecipeMenu.php:465
+msgid ""
+"Here you can find an overview of your recipes. You can add them to a post or "
+"page by copying the shortcode (classic editor) or using the Gutenberg block."
+msgstr ""
+"Hier vind je een overzicht van je recepten. Je kunt ze aan een bericht of "
+"pagina toevoegen door de shortcode (klassieke editor) te kopiëren of door "
+"gebruik te maken van het Gutenbergblok."
+
+#: RecipeTable/RecipeMenu.php:468
+msgid "Add recipe"
+msgstr "Voeg recept toe"
+
+#: RecipeTable/RecipeMenu.php:474
+msgid "Filter"
+msgstr "Filter"
+
+#: RecipeTable/class-recipe-table.php:76 RecipeTable/metabox.php:17
+msgid "Recipe"
+msgstr "Recept"
+
+#: RecipeTable/class-recipe-table.php:110
+msgid "category"
+msgstr "categorie"
+
+#: RecipeTable/class-recipe-table.php:121
+msgid "cuisine"
+msgstr "keuken"
+
+#: RecipeTable/class-recipe-table.php:145 RecipeTable/edit.php:159
+msgid "Title"
+msgstr "Titel"
+
+#: RecipeTable/class-recipe-table.php:174
+msgid "Unnamed recipe"
+msgstr "Naamloos recept"
+
+#: RecipeTable/class-recipe-table.php:178 class-field.php:844
+msgid "Edit"
+msgstr "Wijzig"
+
+#: RecipeTable/class-recipe-table.php:183 RecipeTable/edit.php:123
+msgid "Unlink from post"
+msgstr "Ontkoppel van post"
+
+#: RecipeTable/class-recipe-table.php:184
+#: RecipeTable/class-recipe-table.php:188
+msgid "Delete"
+msgstr "Verwijder"
+
+#: RecipeTable/class-recipe-table.php:185 class.ziprecipes.php:254
+msgid "View post"
+msgstr "Bekijk bericht"
+
+#: RecipeTable/class-recipe-table.php:262
+msgid "Popular"
+msgstr "Populair"
+
+#: RecipeTable/class-recipe-table.php:264
+msgid "Demo"
+msgstr "Demo"
+
+#: RecipeTable/class-recipe-table.php:266
+msgid "Non food"
+msgstr "Non-food"
+
+#: RecipeTable/class-recipe-table.php:278
+msgid "ID"
+msgstr "ID"
+
+#: RecipeTable/class-recipe-table.php:279
+msgid "Name"
+msgstr "Naam"
+
+#: RecipeTable/class-recipe-table.php:280 RecipeTable/edit.php:229
+#: views/category.php:14 views/category.php:29
+msgid "Category"
+msgstr "Categorie"
+
+#: RecipeTable/class-recipe-table.php:281
+msgid "Views"
+msgstr "Aantal keren bekeken"
+
+#: RecipeTable/class-recipe-table.php:282 RecipeTable/edit.php:237
+#: views/category.php:4
+msgid "Cuisine"
+msgstr "Keuken"
+
+#: RecipeTable/class-recipe-table.php:283 class.ziprecipes.php:685
+#: plugins/Authors/Authors.php:128
+msgid "Author"
+msgstr "Auteur"
+
+#: RecipeTable/class-recipe-table.php:284
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: RecipeTable/edit.php:50
+msgid "New recipe"
+msgstr "Nieuw recept"
+
+#: RecipeTable/edit.php:83
+msgid "Settings saved!"
+msgstr "Instellingen bewaard!"
+
+#: RecipeTable/edit.php:87
+msgid "Not all required fields are filled out!"
+msgstr "Niet alle verplichte velden zijn ingevuld!"
+
+#: RecipeTable/edit.php:94 _inc/class.ziprecipes.util.php:407
+msgid "General"
+msgstr "Algemeen"
+
+#: RecipeTable/edit.php:97 _inc/class.ziprecipes.util.php:413
+msgid "Nutrition"
+msgstr "Voedingswaarde"
+
+#: RecipeTable/edit.php:100
+msgid "Rich Snippets"
+msgstr "Rich Snippets"
+
+#: RecipeTable/edit.php:103
+msgid "Misc"
+msgstr "Diversen"
+
+#: RecipeTable/edit.php:109 class-field.php:860 views/template_settings.php:21
+msgid "Save"
+msgstr "Sla op"
+
+#: RecipeTable/edit.php:110
+msgid "Save and close"
+msgstr "Opslaan en sluiten"
+
+#: RecipeTable/edit.php:117
+msgid ""
+"This recipe is linked to a post, but this post has been trashed. You can "
+"untrash the post, or link the recipe to another post or page"
+msgstr ""
+"Dit recept is gekoppeld aan een verwijderde post. Je kunt de post weer te "
+"voorschijn halen, of het recept aan een andere post of pagina koppelen"
+
+#: RecipeTable/edit.php:121
+msgid "Edit linked post"
+msgstr "Wijzig gekoppelde post"
+
+#: RecipeTable/edit.php:126
+msgid "View"
+msgstr "Bekijk"
+
+#: RecipeTable/edit.php:133
+msgid ""
+"Your recipe image is the same as your post image. The image will be hidden "
+"on the front end."
+msgstr ""
+"Je recept afbeelding is hetzelfde als de post afbeelding. De afbeelding zal "
+"verborgen worden aan de front end."
+
+#: RecipeTable/edit.php:138
+#, php-format
+msgid ""
+"You haven't added any tags to your post yet. In your post you can %sadd%s "
+"some tags relevant to this recipe. These will get added as keywords to your "
+"recipes microdata."
+msgstr ""
+"Je hebt nog geen tags toegevoegd aan je post. In je post kun je wat tags "
+"%stoevoegen%s die relevant zijn voor dit recept. Ze worden dan toegevoegd "
+"als sleutelwoorden aan je recepten microdata."
+
+#: RecipeTable/edit.php:147
+msgid "Low resolution, please upload a better quality image."
+msgstr "Lage resolutie, upload een afbeelding van betere kwaliteit."
+
+#: RecipeTable/edit.php:152
+msgid "Recipe image"
+msgstr "Recept afbeelding"
+
+#: RecipeTable/edit.php:160
+msgid "My recipe"
+msgstr "Mijn recept"
+
+#: RecipeTable/edit.php:167
+msgid "Prep time"
+msgstr "Voorbereidingstijd"
+
+#: RecipeTable/edit.php:173
+msgid "Cook time"
+msgstr "Kooktijd"
+
+#: RecipeTable/edit.php:180
+msgid "Wait time"
+msgstr "Wacht tijd"
+
+#: RecipeTable/edit.php:187
+msgid "Serving size"
+msgstr "Portiegrootte"
+
+#: RecipeTable/edit.php:188
+msgid "1 slice"
+msgstr "1 stuk"
+
+#: RecipeTable/edit.php:195
+msgid "Servings"
+msgstr "Porties"
+
+#: RecipeTable/edit.php:196
+msgid "4 persons"
+msgstr "4 personen"
+
+#: RecipeTable/edit.php:197
+msgid "How many people this recipe serves"
+msgstr "Voor hoeveel personen dit recept is"
+
+#: RecipeTable/edit.php:206 class.ziprecipes.php:728 views/ingredients.php:4
+msgid "Ingredients"
+msgstr "Ingrediënten"
+
+#: RecipeTable/edit.php:207
+#, php-format
+msgid ""
+"Put each item on a separate line. There is no need to use bullets for your "
+"ingredients. You can also create labels, [hyperlinks|domain.com], *bold*, "
+"_italic_ effects and even add images! %sRead more%s"
+msgstr ""
+"Zet elk ingrediënt op een aparte regel. Je hoeft geen opsommingstekens te "
+"gebruiken voor ingrediënten. Je kunt ook labels, [hyperlinks|domain.com], "
+"*vet*, _italic_ effecten en zelfs afbeeldingen toevoegen! %sLees meer%s"
+
+#: RecipeTable/edit.php:213 class.ziprecipes.php:735 views/instructions.php:4
+msgid "Instructions"
+msgstr "Instructies"
+
+#: RecipeTable/edit.php:214
+#, php-format
+msgid ""
+"Put each item on a separate line. There is no need to use bullets for your "
+"instructions. You can also create labels, [hyperlinks|domain.com], *bold*, "
+"_italic_ effects and even add images! %sRead more%s"
+msgstr ""
+"Zet iedere stap op een aparte regel. Je hoeft geen opsommingstekens of "
+"nummer te gebruiken. Je kunt ook labels, [hyperlinks|domain.com], *vet*, "
+"_italic_ effecten en zelfs afbeeldingen toevoegen! %sLees meer%s"
+
+#: RecipeTable/edit.php:221
+msgid "Instruction video"
+msgstr "Instructie video"
+
+#: RecipeTable/edit.php:222
+msgid ""
+"A video is a great way to improve your ranking and will get picked up by "
+"Google's rich snippets."
+msgstr ""
+"Een video is een geweldige manier om je ranking te verbeteren en opgenomen "
+"te worden in Google's rich snippets"
+
+#: RecipeTable/edit.php:230
+msgid "Bread"
+msgstr ""
+"Brood\n"
+
+#: RecipeTable/edit.php:238 models/Recipe.php:831
+msgid "French"
+msgstr "Frans"
+
+#: RecipeTable/edit.php:245 class.ziprecipes.php:721 views/notes.php:6
+msgid "Notes"
+msgstr "Notities"
+
+#: RecipeTable/edit.php:253 class.ziprecipes.php:696
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: RecipeTable/edit.php:260
+#, php-format
+msgid ""
+"Need to set a custom author instead of a default WordPress editor? Custom "
+"authors is a feature available in %sZip Recipes Premium%s"
+msgstr ""
+
+#: RecipeTable/edit.php:272
+msgid ""
+"The recipe category has been moved to the WordPress categories. You can now "
+"assign a category to your post in the WordPress post editor"
+msgstr ""
+"De recepten categorie is verplaatst naar de WordPress-categorieën. Je kunt "
+"nu een categorie aan het bericht toewijzen in de WordPress posteditor"
+
+#: RecipeTable/edit.php:289
+msgid ""
+"If you enter the fields below, a HTML and CSS Google friendly nutrition "
+"label will be shown below your recipe."
+msgstr ""
+"Als je de onderstaande velden invult, wordt een HTML- en CSS Google-"
+"vriendelijk voedingslabel onder je recept getoond."
+
+#: RecipeTable/edit.php:298
+#, php-format
+msgid ""
+"Tired of looking up all nutrition data? You can generate the nutrition data "
+"automatically with %sZip Recipes Premium%s"
+msgstr ""
+
+#: RecipeTable/edit.php:304 views/nutrition-label-html.php:24
+#: views/nutrition_text.php:11
+msgid "Calories"
+msgstr "Calorieën"
+
+#: RecipeTable/edit.php:310 views/nutrition_text.php:35
+msgid "Carbs"
+msgstr "Koolhydraten"
+
+#: RecipeTable/edit.php:316 views/nutrition-label-html.php:115
+#: views/nutrition_text.php:43
+msgid "Protein"
+msgstr "Eiwitten"
+
+#: RecipeTable/edit.php:322 views/nutrition_text.php:51
+msgid "Fiber"
+msgstr "Vezels"
+
+#: RecipeTable/edit.php:328 views/nutrition_text.php:59
+msgid "Sugar"
+msgstr "Suiker"
+
+#: RecipeTable/edit.php:334 views/nutrition-label-html.php:76
+#: views/nutrition_text.php:67
+msgid "Sodium"
+msgstr "Zout"
+
+#: RecipeTable/edit.php:340 views/nutrition_text.php:19
+msgid "Fat"
+msgstr "Vet"
+
+#: RecipeTable/edit.php:346
+msgid "Saturated fat"
+msgstr "Verzadigd vet"
+
+#: RecipeTable/edit.php:352 views/nutrition_text.php:75
+msgid "Trans fat"
+msgstr "Transvetten"
+
+#: RecipeTable/edit.php:358 views/nutrition-label-html.php:67
+#: views/nutrition_text.php:83
+msgid "Cholesterol"
+msgstr "Cholesterol"
+
+#: RecipeTable/edit.php:364 views/nutrition-label-html.php:132
+msgid "Vitamin C"
+msgstr "Vitamine C"
+
+#: RecipeTable/edit.php:370 views/nutrition-label-html.php:128
+msgid "Vitamin A"
+msgstr "Vitamine A"
+
+#: RecipeTable/edit.php:376 views/nutrition-label-html.php:142
+msgid "Iron"
+msgstr "IJzer"
+
+#: RecipeTable/edit.php:382 views/nutrition-label-html.php:138
+msgid "Calcium"
+msgstr "Calcium"
+
+#: RecipeTable/edit.php:404
+msgid ""
+"Google prefers three images in the ratio's 1x1, 4x3 and 16x9. These are "
+"generated automatically by Zip Recipes, but you can change the selected "
+"images here. Use a high resolution image. If you reset an image, it will "
+"default to the generated image based on the main recipe image, or if there "
+"is no recipe image, the linked post image."
+msgstr ""
+"Google geeft de voorkeur aan drie afbeeldingen in de verhouding 1x1, 4x3 en "
+"16x9. Deze worden automatisch gegenereerd door Zip Recipes, maar je kunt de "
+"afbeeldingen hier ook wijzigen. Gebruik hiervoor altijd een hoge resolutie "
+"afbeelding. Als je een afbeelding reset zal deze standaard worden ingesteld "
+"op de hoofdafbeelding van je recept, of als er geen receptafbeelding is de "
+"afbeelding die aan het bericht is gekoppeld."
+
+#: RecipeTable/edit.php:410 RecipeTable/edit.php:419 RecipeTable/edit.php:428
+msgid ""
+"Image resolution too low, or image size not generated. You should use an "
+"image of at least 250x250 pixels"
+msgstr ""
+"Afbeelding resolutie te laag, of afbeelding grootte niet gegenereerd. "
+"Gebruik op zijn minst een afbeelding van 250x250 pixels"
+
+#: RecipeTable/edit.php:415
+msgid "1x1 snippet image"
+msgstr "1x1 rich snippet afbeelding"
+
+#: RecipeTable/edit.php:424
+msgid "4x3 snippet image"
+msgstr "4x3 rich snippet afbeelding"
+
+#: RecipeTable/edit.php:433
+msgid "16x9 snippet image"
+msgstr "16x9 rich snippet afbeelding"
+
+#: RecipeTable/edit.php:451
+msgid "Mark recipe as non food"
+msgstr "Geef aan dat dit recept non food is"
+
+#: RecipeTable/edit.php:488
+msgid "The preview requires the recipe to be connected to a published post"
+msgstr ""
+"De preview vereist dat het recept wordt gekoppeld aan een gepubliceerde post"
+
+#: _inc/PluginBase.php:95 _inc/PluginBase.php:109 _inc/PluginBase.php:116
+#: _inc/PluginBase.php:123 _inc/PluginBase.php:136
+msgid "gram"
+msgstr "gram"
+
+#: _inc/PluginBase.php:95 _inc/PluginBase.php:109 _inc/PluginBase.php:116
+#: _inc/PluginBase.php:123 _inc/PluginBase.php:136
+msgctxt "plural"
+msgid "grams"
+msgstr "gram"
+
+#: _inc/PluginBase.php:144
+msgctxt "short for gram"
+msgid "g"
+msgstr "g"
+
+#: _inc/PluginBase.php:144
+msgctxt "short for grams, plural"
+msgid "g"
+msgstr "g"
+
+#: _inc/PluginBase.php:167
+msgid "kilogram"
+msgstr "kilogram"
+
+#: _inc/PluginBase.php:167
+msgctxt "plural"
+msgid "kilograms"
+msgstr "kilogram"
+
+#: _inc/PluginBase.php:175
+msgid "kg"
+msgstr "kg"
+
+#: _inc/PluginBase.php:175
+msgctxt "plural"
+msgid "kgs "
+msgstr "kg"
+
+#: _inc/PluginBase.php:190
+msgid "kilo"
+msgstr "kg"
+
+#: _inc/PluginBase.php:190
+msgctxt "plural"
+msgid "kilos "
+msgstr "kg"
+
+#: _inc/class.ziprecipes.util.php:318
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: _inc/class.ziprecipes.util.php:320 class.ziprecipes.php:222
+msgid "Support"
+msgstr "Klantenservice"
+
+#: _inc/class.ziprecipes.util.php:327
+msgid "Display options"
+msgstr "Weergave opties"
+
+#: _inc/class.ziprecipes.util.php:419
+msgid "Authors"
+msgstr "Auteurs"
+
+#: _inc/class.ziprecipes.util.php:425
+msgid "Add-ons"
+msgstr "Uitbreidingen"
+
+#: _inc/class.ziprecipes.util.php:431
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: _inc/class.ziprecipes.util.php:437
+msgid "Other plugins"
+msgstr "Andere plugins"
+
+#: _inc/class.ziprecipes.util.php:483 grid/grid-enqueue.php:61
+msgid "Default"
+msgstr "Standaard"
+
+#: _inc/class.ziprecipes.util.php:484
+msgid "Custom"
+msgstr "Eigen"
+
+#: _inc/class.ziprecipes.util.php:485
+msgid "Autumn"
+msgstr "Herfst"
+
+#: _inc/class.ziprecipes.util.php:486
+msgid "Canada"
+msgstr "Canada"
+
+#: _inc/class.ziprecipes.util.php:487
+msgid "Cozy Orange"
+msgstr "Cozy Orange"
+
+#: _inc/class.ziprecipes.util.php:488
+msgid "Vanilla"
+msgstr "Vanille"
+
+#: _inc/class.ziprecipes.util.php:489
+msgid "Vera"
+msgstr "Vera"
+
+#: _inc/class.ziprecipes.util.php:500
+msgid "Recipe presets"
+msgstr "Recept voorinstellingen"
+
+#: _inc/class.ziprecipes.util.php:501
+#, php-format
+msgid "To get more templates, check out %spremium%s"
+msgstr "Voor meer sjablonen, check %sPremium%s"
+
+#: _inc/class.ziprecipes.util.php:509
+msgid "No border"
+msgstr "Geen rand"
+
+#: _inc/class.ziprecipes.util.php:510
+msgid "Solid"
+msgstr "Vast"
+
+#: _inc/class.ziprecipes.util.php:511
+msgid "Dotted"
+msgstr "Gestippeld"
+
+#: _inc/class.ziprecipes.util.php:512
+msgid "Dashed"
+msgstr "Onderbroken lijn"
+
+#: _inc/class.ziprecipes.util.php:513
+msgid "Double"
+msgstr "Dubbel"
+
+#: _inc/class.ziprecipes.util.php:516
+msgid "Border style"
+msgstr "Stijl van de rand"
+
+#: _inc/class.ziprecipes.util.php:524
+msgid "Border width"
+msgstr "Rand dikte"
+
+#: _inc/class.ziprecipes.util.php:532
+msgid "Border radius"
+msgstr "Ronding van hoeken"
+
+#: _inc/class.ziprecipes.util.php:540
+msgid "Box shadow"
+msgstr "Schaduw"
+
+#: _inc/class.ziprecipes.util.php:548
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: _inc/class.ziprecipes.util.php:556
+msgid "Border color"
+msgstr "Rand kleur"
+
+#: _inc/class.ziprecipes.util.php:564
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: _inc/class.ziprecipes.util.php:572
+msgid "Primary color"
+msgstr "Primaire kleur"
+
+#: _inc/class.ziprecipes.util.php:580
+msgid "Link color"
+msgstr "Link kleur"
+
+#: _inc/class.ziprecipes.util.php:587
+msgid "Enable jump to recipe link"
+msgstr "Schakel 'snel naar recept' knop in"
+
+#: _inc/class.ziprecipes.util.php:588
+msgid ""
+"You can add a link at the top of each recipe which scrolls down to the "
+"recipe on the page when the user clicks it."
+msgstr ""
+"Je kunt een link toevoegen boven in ieder recept waarmee bezoekers snel naar "
+"het recept kunnen scrollen."
+
+#: _inc/class.ziprecipes.util.php:596
+msgid "Show summary on archive pages"
+msgstr "Toon samenvatting op archiefpagina's"
+
+#: _inc/class.ziprecipes.util.php:597
+msgid ""
+"You can choose to show the recipe summary instead of the recipe on archive "
+"pages."
+msgstr ""
+"Je kunt ervoor kiezen om de samenvatting te tonen in plaats van het recept "
+"op de archiefpagina's."
+
+#: _inc/class.ziprecipes.util.php:604 _inc/class.ziprecipes.util.php:637
+msgid "List, no bullets"
+msgstr "Lijst, geen opsommingstekens"
+
+#: _inc/class.ziprecipes.util.php:605 _inc/class.ziprecipes.util.php:638
+msgid "Numbered List"
+msgstr "Genummerde lijst"
+
+#: _inc/class.ziprecipes.util.php:606 _inc/class.ziprecipes.util.php:639
+msgid "Bulleted List"
+msgstr "Opsomming"
+
+#: _inc/class.ziprecipes.util.php:607 _inc/class.ziprecipes.util.php:640
+msgid "Bordered numbers | circle"
+msgstr "Omlijnde cijfers | rond"
+
+#: _inc/class.ziprecipes.util.php:608 _inc/class.ziprecipes.util.php:641
+msgid "Bordered numbers | square"
+msgstr "Bordered numbers | vierkant"
+
+#: _inc/class.ziprecipes.util.php:609 _inc/class.ziprecipes.util.php:642
+msgid "Colored numbers | disc"
+msgstr "Gekleurde nummers | rond"
+
+#: _inc/class.ziprecipes.util.php:610 _inc/class.ziprecipes.util.php:643
+msgid "Colored numbers | square"
+msgstr "Gekleurde nummers | vierkant"
+
+#: _inc/class.ziprecipes.util.php:611 _inc/class.ziprecipes.util.php:644
+msgid "Counter"
+msgstr "Teller"
+
+#: _inc/class.ziprecipes.util.php:612 _inc/class.ziprecipes.util.php:645
+msgid "Circles"
+msgstr "Cirkels"
+
+#: _inc/class.ziprecipes.util.php:613 _inc/class.ziprecipes.util.php:646
+msgid "Squares"
+msgstr "Vierkanten"
+
+#: _inc/class.ziprecipes.util.php:614 _inc/class.ziprecipes.util.php:647
+msgid "Discs"
+msgstr "Schijven"
+
+#: _inc/class.ziprecipes.util.php:615 _inc/class.ziprecipes.util.php:648
+msgid "Blocks"
+msgstr "Blokken"
+
+#: _inc/class.ziprecipes.util.php:629
+msgid "Ingredients List Type"
+msgstr "Ingredienten opsommingsstijl"
+
+#: _inc/class.ziprecipes.util.php:662
+msgid "Instructions List Type"
+msgstr "Instructies opsommingsstijl"
+
+#: _inc/class.ziprecipes.util.php:669
+#, php-format
+msgid "Copyright %s"
+msgstr "Auteursrecht %s"
+
+#: _inc/class.ziprecipes.util.php:671
+msgid "Copyright statement"
+msgstr "Auteursrechtverklaring"
+
+#: _inc/class.ziprecipes.util.php:678
+msgid "Hide recipe image when post image is the same"
+msgstr "Verberg receptafbeelding als de berichtafbeelding gelijk is"
+
+#: _inc/class.ziprecipes.util.php:679
+msgid ""
+"When enabled, the recipe image will be hidden if it's the same as the image "
+"in the post"
+msgstr ""
+"Wanneer ingeschakeld, zal de receptafbeelding worden verborgen als deze "
+"hetzelfde is als de afbeelding in het bericht"
+
+#: _inc/class.ziprecipes.util.php:686
+msgid "Hide Image in print view"
+msgstr "Verberg afbeelding in de print view"
+
+#: _inc/class.ziprecipes.util.php:694
+msgid "Hide link to recipe in print view"
+msgstr "Verberg link naar het recept in de printweergave"
+
+#: _inc/class.ziprecipes.util.php:695
+msgid ""
+"The link is a direct link to the recipe, at the bottom of your recipe "
+"printout"
+msgstr "De link is de URL van het recept, onderaan de print van je recept"
+
+#: _inc/class.ziprecipes.util.php:702
+msgid "Hide nutrition label in print view"
+msgstr "Verberg voedingswaarden label in printweergave"
+
+#: _inc/class.ziprecipes.util.php:710 _inc/class.ziprecipes.util.php:717
+#: _inc/class.ziprecipes.util.php:724 _inc/class.ziprecipes.util.php:731
+#: _inc/class.ziprecipes.util.php:738
+msgid "Hide label"
+msgstr "Verberg label"
+
+#: _inc/class.ziprecipes.util.php:747
+msgid "Official logo"
+msgstr "Officieel logo"
+
+#: _inc/class.ziprecipes.util.php:748
+msgid "Square"
+msgstr "Vierkant"
+
+#: _inc/class.ziprecipes.util.php:749
+msgid "Round"
+msgstr "Rond"
+
+#: _inc/class.ziprecipes.util.php:752
+msgid "Label style"
+msgstr "Label stijl"
+
+#: _inc/class.ziprecipes.util.php:759
+msgid "Hide explanation"
+msgstr ""
+
+#: _inc/class.ziprecipes.util.php:765
+msgid "Image resolution too low, or image size not generated"
+msgstr "Afbeelding resolutie te laag, of afbeelding grootte niet gegenereerd"
+
+#: _inc/class.ziprecipes.util.php:769
+msgid "Custom Print Button"
+msgstr "Eigen Print knop"
+
+#: _inc/class.ziprecipes.util.php:779
+msgid "Use custom authors"
+msgstr "Gebruik maatwerk auteurs"
+
+#: _inc/class.ziprecipes.util.php:780
+msgid ""
+"By default, Zip Recipes uses WordPress authors. You can use your own, custom "
+"authors as well."
+msgstr ""
+"Zip Recipes maakt standaard gebruik van WordPress auteurs. Je kunt ook eigen "
+"auteurs gebruiken."
+
+#: _inc/class.ziprecipes.util.php:781
+#, php-format
+msgid "The custom author field is a %spremium%s feature"
+msgstr "Het eigen auteur veld is een %sPremium%s functie"
+
+#: _inc/class.ziprecipes.util.php:790
+msgid "Select a default author"
+msgstr "Selecteer standaard auteur"
+
+#: _inc/class.ziprecipes.util.php:801
+msgid "Manage authors"
+msgstr "Beheer auteurs"
+
+#: _inc/class.ziprecipes.util.php:802
+msgid "Add and remove your authors"
+msgstr "Tovoegen en verwijderen van auteurs"
+
+#: _inc/class.ziprecipes.util.php:815
+#, php-format
+msgid "To automatically generate nutrition data, check out %spremium%s"
+msgstr "Met %sPremium%s kun je automatisch voedingswaarden berekenen"
+
+#: _inc/class.ziprecipes.util.php:816
+msgid "Enable the Automatic Nutrition generator"
+msgstr "Schakel de automatische voedingswaarden generator in"
+
+#: _inc/class.ziprecipes.util.php:823
+msgid "HTML format"
+msgstr "HTML formaat"
+
+#: _inc/class.ziprecipes.util.php:824 class.ziprecipes.php:708
+msgid "Image"
+msgstr "Afbeelding"
+
+#: _inc/class.ziprecipes.util.php:831
+msgid "Choose nutrition label display method"
+msgstr "Kies voedingslabel weergavemethoden"
+
+#: _inc/class.ziprecipes.util.php:832
+msgid ""
+"You can choose if you want to show the label in html format, which can be "
+"understood better by search engines, or in image format"
+msgstr ""
+"Je kunt kiezen of u het label in HTML-formaat wilt tonen, wat beter te "
+"begrijpen is door zoekmachines, of in beeldformaat"
+
+#: _inc/class.ziprecipes.util.php:840
+msgid "Import nutrition data for all recipes"
+msgstr "Importeer voedingswaarden voor alle recepten"
+
+#: _inc/class.ziprecipes.util.php:841
+msgid ""
+"This will process in the background, and may take a while. It will pause if "
+"you close the browser, or disable the setting."
+msgstr ""
+"Dit wordt verwerkt op de achtergrond en kan een tijdje duren. De verwerking "
+"wordt gepauzeerd als je de browser sluit, of de instelling uitschakeld."
+
+#: _inc/class.ziprecipes.util.php:850
+msgid "Social Recipe sharing"
+msgstr "Social recepten delen"
+
+#: _inc/class.ziprecipes.util.php:851
+#, php-format
+msgid "Check out %spremium%s to see our recipe sharing features"
+msgstr "Bekijk %sPremium%s om de sharing mogelijkheden te bekijken"
+
+#: _inc/class.ziprecipes.util.php:860
+msgid "Add Print Button"
+msgstr "Voeg print-knop toe"
+
+#: _inc/class.ziprecipes.util.php:869 _inc/class.ziprecipes.util.php:879
+#: _inc/class.ziprecipes.util.php:889
+#, php-format
+msgid "Add %s sharing button"
+msgstr "Voeg %s share knop toe"
+
+#: _inc/class.ziprecipes.util.php:899
+msgid "Imperial Metrics Converter"
+msgstr "Imperial - Metrische omvormer"
+
+#: _inc/class.ziprecipes.util.php:909 class.ziprecipes.php:1446
+msgid "Recipe Gallery"
+msgstr "Recepten gallerij"
+
+#: _inc/class.ziprecipes.util.php:923 class.ziprecipes.php:656
+#: plugins/VisitorRating/VisitorRating.php:427
+msgid "Visitor Rating"
+msgstr "Beoordeling van bezoekers"
+
+#: _inc/class.ziprecipes.util.php:936 class.ziprecipes.php:664
+#: plugins/RecipeReviews/RecipeReviews.php:102
+#: plugins/RecipeReviews/RecipeReviews.php:754
+msgid "Recipe Reviews"
+msgstr "Recepten reviews"
+
+#: _inc/class.ziprecipes.util.php:954
+msgid "Recipe Search"
+msgstr "Recepten zoeken"
+
+#: _inc/class.ziprecipes.util.php:963
+msgid "Automatic Serving Adjustment"
+msgstr "Automatisch porties berekenen"
+
+#: _inc/class.ziprecipes.util.php:972
+msgid "Use Zip Recipes style"
+msgstr "Gebruik Zip Recipes opmaak"
+
+#: _inc/class.ziprecipes.util.php:983
+msgid "Restart tour"
+msgstr "Rondleiding opnieuw volgen"
+
+#: _inc/class.ziprecipes.util.php:993
+msgid "Import ratings to reviews"
+msgstr "Importeer beoordelingen naar recensies"
+
+#: _inc/class.ziprecipes.util.php:1064 _inc/class.ziprecipes.util.php:1078
+msgid "Zip Recipes preview post (do not delete)"
+msgstr ""
+
+#: _inc/class.ziprecipes.util.php:1067
+msgid "Save your recipe to see the preview"
+msgstr "Sla je recept op om de preview te zien"
+
+#: class-field.php:209
+msgid "This field is required. Please complete the question before continuing"
+msgstr "Dit veld is verplicht. Voltooi alsjeblieft de vraag voor je door gaat"
+
+#: class-field.php:425
+msgid "(h)"
+msgstr "(u)"
+
+#: class-field.php:434
+msgid "(m)"
+msgstr "(m)"
+
+#: class-field.php:729
+msgid "Choose an option"
+msgstr "Kies een optie"
+
+#: class-field.php:845 class.ziprecipes.php:1290 views/template_settings.php:22
+msgid "Reset"
+msgstr "Reset"
+
+#: class-review.php:57
+#, php-format
+msgid "You already have %s recipes on your site, awesome!"
+msgstr "Je hebt al %s recepten op je site, geweldig!"
+
+#: class-review.php:84
+#, php-format
+msgid ""
+"If you have a moment, please consider leaving a review on WordPress.org to "
+"spread the word. We greatly appreciate it! If you have any questions or "
+"feedback, leave us a %smessage%s."
+msgstr ""
+"Vertel het verder! Als je de tijd zou willen nemen om een review op "
+"WordPress.org achter te laten zouden we dat enorm waarderen. Als je vragen "
+"op opmerkingen hebt horen we het graag via een %sbericht%s."
+
+#: class-review.php:89
+msgid "Leave a review"
+msgstr "Laat een recensie achter"
+
+#: class-review.php:91
+msgid "Maybe later"
+msgstr "Misschien later"
+
+#: class-review.php:92
+msgid "Don't show again"
+msgstr "Niet meer tonen"
+
+#: class.ziprecipes.php:103 class.ziprecipes.php:110
+msgid "Demo Recipe"
+msgstr "Demo recept"
+
+#: class.ziprecipes.php:147 shepherd/tour.php:109
+msgid "Extensions"
+msgstr "Uitbreidingen"
+
+#: class.ziprecipes.php:228
+msgid "Upgrade to premium"
+msgstr "Upgrade naar Premium"
+
+#: class.ziprecipes.php:277 views/toolbar.php:154
+msgid "Edit recipe"
+msgstr "Wijzig recept"
+
+#: class.ziprecipes.php:280
+msgid "Insert new recipe"
+msgstr "Nieuw recept invoegen"
+
+#: class.ziprecipes.php:514
+msgid "Click to edit this image"
+msgstr "Klik om deze afbeelding te wijzigen"
+
+#: class.ziprecipes.php:650
+msgid "Recipe title"
+msgstr "Recept titel"
+
+#: class.ziprecipes.php:672
+msgid "Actions"
+msgstr "Acties"
+
+#: class.ziprecipes.php:679
+msgid "Divider"
+msgstr "Horizontale streep"
+
+#: class.ziprecipes.php:690
+msgid "Categories"
+msgstr "Categorieën"
+
+#: class.ziprecipes.php:702
+msgid "Details"
+msgstr "Details"
+
+#: class.ziprecipes.php:715
+msgid "Video"
+msgstr "Video"
+
+#: class.ziprecipes.php:755 views/tags.php:5
+msgid "Tags"
+msgstr "Tags"
+
+#: class.ziprecipes.php:762
+msgid "Social"
+msgstr "Social Media"
+
+#: class.ziprecipes.php:769
+msgid "Copyright"
+msgstr "Auteursrecht"
+
+#: class.ziprecipes.php:902
+msgid "Premium block, enable the premium plugin to activate this block."
+msgstr "Premium blok, activeer de uitbreiding om dit blok te activeren"
+
+#: class.ziprecipes.php:904
+msgid "Inactive block, enable in the settings."
+msgstr "Inactief blok, activeer via instellingen"
+
+#: class.ziprecipes.php:948
+msgid "Link to recipe"
+msgstr "Link naar recept"
+
+#: class.ziprecipes.php:1014
+msgid "You do not have manage options permissions."
+msgstr "Je hebt geen rechten om de instellingen te beheren."
+
+#: class.ziprecipes.php:1019
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:166
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:482
+msgid "An unexpected error has occurred. Please try again"
+msgstr ""
+"Er is een onverwachte fout opgetreden. Probeer het alsjeblieft nog een keer"
+
+#: class.ziprecipes.php:1072
+msgid "Successfully saved the template"
+msgstr "Sjabloon succesvol opgeslagen"
+
+#: class.ziprecipes.php:1107
+msgid "Style settings"
+msgstr ""
+
+#: class.ziprecipes.php:1166
+msgid "premium"
+msgstr "Premium"
+
+#: class.ziprecipes.php:1170 class.ziprecipes.php:1228
+msgid "Inactive"
+msgstr "Inactief"
+
+#: class.ziprecipes.php:1240
+msgid "Add full column"
+msgstr "Volledige kolom toevoegen"
+
+#: class.ziprecipes.php:1240
+msgid "Add half column"
+msgstr "Halve kolom toevoegen"
+
+#: class.ziprecipes.php:1271
+msgid "Select which dashboard items should be displayed"
+msgstr "Selecteer welke dashboard onderdelen zichtbaar moeten zijn"
+
+#: class.ziprecipes.php:1348
+msgid "Compact and clean"
+msgstr "Compact en clean"
+
+#: class.ziprecipes.php:1353
+msgid "Powerful and colorful"
+msgstr "Krachtig en kleurrijk"
+
+#: class.ziprecipes.php:1358
+msgid "Warm and beautiful"
+msgstr "Warm en prachtig"
+
+#: class.ziprecipes.php:1363
+msgid "A smooth looking recipe"
+msgstr "Een mooi uit"
+
+#: class.ziprecipes.php:1368
+msgid "Grey background for contrast"
+msgstr "Grijze achtergrond voor contrast"
+
+#: class.ziprecipes.php:1373
+msgid "Simplicity sometimes is best"
+msgstr "Eenvoud is soms het beste"
+
+#: class.ziprecipes.php:1380
+msgid "Search by ingredients"
+msgstr "Zoek op ingredient"
+
+#: class.ziprecipes.php:1385
+msgid "Social sharing with BigOven, Yummly and Pinterest"
+msgstr "Social sharing met BigOven, Tummly en Pinterest"
+
+#: class.ziprecipes.php:1390
+msgid "Star ratings for your recipes"
+msgstr "Sterren beoordelingen voor je recepten"
+
+#: class.ziprecipes.php:1396
+msgid "Text-based reviews of your recipes"
+msgstr "tekstuele recensies van je recepten "
+
+#: class.ziprecipes.php:1401
+msgid "Imperial - Metric converter"
+msgstr "Imperial - Metrische omvormer"
+
+#: class.ziprecipes.php:1405
+msgid "All extensions are optimized for Google's structured data"
+msgstr "Alle uitbreidingen zijn geoptimaliseerd voor Google structured data."
+
+#: class.ziprecipes.php:1422
+msgid "About Extensions"
+msgstr "Over uitbreidingen"
+
+#: class.ziprecipes.php:1430
+msgid "Automatic Nutrition"
+msgstr "Automatische voedingswaarden"
+
+#: class.ziprecipes.php:1434
+msgid "Automatically generate all nutritional values of your recipe."
+msgstr "Genereer automatisch de voedingswaarden voor je recept."
+
+#: class.ziprecipes.php:1438
+msgid "Serving Adjustments"
+msgstr "Porties aanpassen"
+
+#: class.ziprecipes.php:1442
+msgid ""
+"Visitors can adjust the ingredients to the number of servings they need: it "
+"won't get easier for your visitors!"
+msgstr ""
+"Bezoekers kunnen de ingrediënten aanpassen naar het aantal porties dat ze "
+"nodig hebben: makkelijker gaat het niet worden!"
+
+#: class.ziprecipes.php:1450
+msgid ""
+"Display your recipes in this beautiful, dynamically filterable grid gallery"
+msgstr "Laat uw recepten zien in deze prachtige, te filteren gallerij"
+
+#: class.ziprecipes.php:1454
+msgid "Templates"
+msgstr "Sjablonen"
+
+#: class.ziprecipes.php:1460
+msgid "And even more!"
+msgstr "En nog veel meer!"
+
+#: class.ziprecipes.php:1474
+msgid "Get Premium"
+msgstr "Upgrade naar Premium"
+
+#: class.ziprecipes.php:1482
+msgid "See it live on our demo website"
+msgstr "Zie het live op onze demo site"
+
+#: class.ziprecipes.php:1537
+msgid "Jump to recipe"
+msgstr "Snel naar recept"
+
+#: class.ziprecipes.php:1704 models/Recipe.php:943
+#, php-format
+msgid "%d year"
+msgstr "% d jaar"
+
+#: class.ziprecipes.php:1704 models/Recipe.php:943
+#, php-format
+msgid "%d years"
+msgstr "%d jaren"
+
+#: class.ziprecipes.php:1705 models/Recipe.php:944
+#, php-format
+msgid "%d month"
+msgstr "% d maand"
+
+#: class.ziprecipes.php:1705 models/Recipe.php:944
+#, php-format
+msgid "%d months"
+msgstr "%d maanden"
+
+#: class.ziprecipes.php:1706 models/Recipe.php:945
+#, php-format
+msgid "%d day"
+msgstr "%d dag"
+
+#: class.ziprecipes.php:1706 models/Recipe.php:945
+#, php-format
+msgid "%d days"
+msgstr "%d dagen"
+
+#: class.ziprecipes.php:1707 models/Recipe.php:946
+#, php-format
+msgid "%d hour"
+msgstr "%d uur"
+
+#: class.ziprecipes.php:1707 models/Recipe.php:946
+#, php-format
+msgid "%d hours"
+msgstr "%d uren"
+
+#: class.ziprecipes.php:1708 models/Recipe.php:947
+#, php-format
+msgid "%d minute"
+msgstr "%d minuut"
+
+#: class.ziprecipes.php:1708 models/Recipe.php:947
+#, php-format
+msgid "%d minutes"
+msgstr "%d minuten"
+
+#: class.ziprecipes.php:1709 models/Recipe.php:948
+#, php-format
+msgid "%d second"
+msgstr "%d seconde"
+
+#: class.ziprecipes.php:1709 models/Recipe.php:948
+#, php-format
+msgid "%d seconds"
+msgstr "%d seconden"
+
+#: class.ziprecipes.php:1898
+msgid ""
+"For the best performance, Zip Recipes recommends ImageMagick or GD PHP "
+"extensions installed. Please contact your hosting company and request that "
+"they install ImageMagick or GD PHP extensions for you website."
+msgstr ""
+"Om de beste resultaten te krijgen adviseert Zip Recipes om ImageMagick of GD "
+"PHP extensies te installeren. Neem contact op met je hosting bedrijf and "
+"vraag hen ImageMagick of GD PHP extensies voor jouw website toe te voegen."
+
+#: controllers/EndpointController.php:107
+msgid "Invalid recipe ID or recipe not found"
+msgstr "Ongeldige recept ID of recept niet gevonden"
+
+#: grid/grid-enqueue.php:59
+msgid "Clear"
+msgstr "Wissen"
+
+#: grid/grid-enqueue.php:60
+msgid "Clear color"
+msgstr "Kleur wissen"
+
+#: grid/grid-enqueue.php:62
+msgid "Select default color"
+msgstr "Selecteer standaard kleur"
+
+#: grid/grid-enqueue.php:63
+msgid "Select Color"
+msgstr "Selecteer kleur"
+
+#: grid/grid-enqueue.php:64
+msgid "Color value"
+msgstr "Kleurwaarde"
+
+#: grid/grid-enqueue.php:77
+msgid "Settings changed, you should save!"
+msgstr "Instellingen veranderd, vergeet niet op te slaan!"
+
+#: models/Recipe.php:755
+msgid "Creme Brulee"
+msgstr "Crème brûlée"
+
+#: models/Recipe.php:767
+msgid "This is a great recipe for all occasions"
+msgstr "Dit is een heerlijk recept voor alle gelegenheden"
+
+#: models/Recipe.php:779
+msgid "1 bowl"
+msgstr "1 kom"
+
+#: models/Recipe.php:805
+msgid "Easy to make, but with a big wow factor"
+msgstr "Gemakkelijk te maken, maar met een grote wow factor!"
+
+#: models/Recipe.php:825
+msgid ""
+"Cool completely! Refrigerate for several hours and up to a couple of days"
+msgstr "Volledig koelen! Koel voor meerdere uren tot dagen"
+
+#: models/Recipe.php:838
+msgid "Example tag 1"
+msgstr "Voorbeeld tag 1"
+
+#: models/Recipe.php:841
+msgid "Example tag 2"
+msgstr "Voorbeeld tag 2"
+
+#: models/Recipe.php:844
+msgid "Example tag 3"
+msgstr "Voorbeeld tag 3"
+
+#: plugins/Authors/Authors.php:135
+#, php-format
+msgid ""
+"Author will be set automatically to your post author. If you want to use "
+"custom authors, you can do so in the %ssettings%s."
+msgstr ""
+"Auteur is automatisch de auteur van de post. Als je andere auteurs wilt "
+"gebruiken kun je die in de %ssettings%s toevoegen."
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:33
+msgid "Import completed"
+msgstr "Importeren voltooid"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:38
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:79
+#, php-format
+msgid "Import %s of %s in progress"
+msgstr "Importeren % van % in uitvoering"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:140
+msgid "Use separate ingredients list for nutrition generation"
+msgstr "Gebruik aparte ingredienten lijst voor genereren van voedingswaarden"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:141
+msgid ""
+"If you're not using English or Spanish, or you just want to exclude some "
+"ingredients from the nutrition generation, you can use this field, which is "
+"used for the nutrition data only"
+msgstr ""
+"Als je geen Engels of Spaans gebruikt, of als je sommige ingrediënten wilt "
+"uitsluiten van de berekening kun je dit veld gebruiken. De ingevulde "
+"ingredienten worden alleen gebruikt voor het voedingswaarden label."
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:147
+msgid "Ingredients for nutrition generation"
+msgstr "Ingrediënten voor het genereren van voedingswaarden"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:161
+msgid "You do not have edit permissions."
+msgstr "Je hebt geen rechten om te wijzigen."
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:171
+msgid ""
+"Your PHP is mis-configured. It's missing CURL extension. Please contact your "
+"host."
+msgstr ""
+"Je PHP is niet goed geconfigureerd. CURL extensies ontbreken. Neem contact "
+"op met je hostingsbedrijf."
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:181
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:493
+msgid "Recipe not found. Please save your recipe first."
+msgstr "Recept niet gevonden. Sla alsjeblieft eerst je recept op."
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:221
+msgid "Successfully generated nutrition data"
+msgstr "Voedingswaarden succesvol gegenereerd"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:297
+msgid ""
+"Your license is not activated. Please activate your license to be able to "
+"use the Nutrition Generator."
+msgstr ""
+"Je licentie is niet geactiveerd. Activeer je licentie om de Voedingswaarde "
+"generator te kunnen gebruiken."
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:302
+msgid ""
+"CURL is not installed on your server, which is needed for this function. "
+"Please contact your hosting company to get CURL installed on your server."
+msgstr ""
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:362
+#, php-format
+msgid "The %s field should not be empty"
+msgstr "Het %s veld mag niet leeg zijn"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:372
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:390
+msgid ""
+"We had trouble understanding your ingredients. Please try removing some to "
+"see if any are not recognized by the API. If needed, you can create a "
+"separte API ingredients field, by checking the option below."
+msgstr ""
+"We hebben moeite met het begrijpen van je ingredienten. Probeer er een paar "
+"te verwijderen om te kijken of er iets niet herkend wordt door de API. "
+"Indien nodig kun je een apart API ingredientenveld maken door de optie "
+"hieronder aan te klikken."
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:454
+msgid "Did not receive nutrition image url"
+msgstr "Voedingswaarde-afbeelding url niet ontvangen"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:462
+msgid "Could not download nutrition"
+msgstr "Kon voedingswaarden niet downloaden"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:535
+msgid "Successfully cleared nutrition data"
+msgstr "Voedingswaarden succesvol verwijderd"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:734
+msgid "Automatic Nutrition generation"
+msgstr "Voedingswaarden automatisch genereren"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:742
+msgid "To generate the Nutrition data, you should save the recipe first"
+msgstr "Om de voedingswaarden te genereren moet je het recept eerst opslaan"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:750
+msgid "Update"
+msgstr "Update"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:750
+msgid "Generate label"
+msgstr "Genereer label"
+
+#: plugins/AutomaticNutrition/AutomaticNutrition.php:751
+msgid "Clear label"
+msgstr "Verwijder label"
+
+#: plugins/ImperialMetricsConverter/ImperialMetricsConverter.php:57
+msgid "Imperial"
+msgstr "Imperial"
+
+#: plugins/ImperialMetricsConverter/ImperialMetricsConverter.php:58
+msgid "Metric"
+msgstr "Metrisch"
+
+#: plugins/Licensing/Licensing.php:92
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: plugins/Licensing/Licensing.php:94
+msgid "Account"
+msgstr "Account"
+
+#: plugins/Licensing/Licensing.php:111 plugins/Licensing/Licensing.php:125
+msgid "License"
+msgstr "Licentie"
+
+#: plugins/Licensing/Licensing.php:187
+msgid ""
+"You haven't activated your Zip Recipes license yet. To get all future "
+"updates, enter your license on the settings page."
+msgstr ""
+"Je hebt je Zip Recipes licentie nog niet geactiveerd. Voer je licentie in op "
+"de instellingen pagina om alle toekomstige updates te ontvangen."
+
+#: plugins/Licensing/Licensing.php:188
+#, php-format
+msgid "Go to the %ssettings page%s or %spurchase a license%s"
+msgstr "Ga naar de %sinstellingen pagina%s of %skoop een licentie%s"
+
+#: plugins/Licensing/Licensing.php:270
+msgid "Could not connect to ziprecipes.net. Please try again later."
+msgstr "Geen verbinding met ziprecipes.net. Probeer het later nog eens."
+
+#: plugins/Licensing/Licensing.php:273
+msgid "a 5 sites or unlimited sites license"
+msgstr "een 5 sites of unlimited licentie"
+
+#: plugins/Licensing/Licensing.php:273
+msgid "an unlimited sites license"
+msgstr "een licentie voor een onbeperkt aantal sites"
+
+#: plugins/Licensing/Licensing.php:276
+#, php-format
+msgid ""
+"You have 0 activations left on your %s sites license. If you need more "
+"activations you can upgrade your current license to %s on your %saccount%s"
+msgstr ""
+"Je hebt 0 activeringen over op je %s sites licentie. Als je meer "
+"activeringen nodig hebt kun je je huidige licentie opwaarderen tot %s op je "
+"%saccount%s"
+
+#: plugins/Licensing/Licensing.php:284
+msgid "Your license is valid, but not activated on this site"
+msgstr "Je licentie is geldig maar nog niet geactiveerd op deze site"
+
+#: plugins/Licensing/Licensing.php:286
+msgid "Your license does not seem to be valid. Please check your license key"
+msgstr "Je licentie lijkt niet geldig te zijn. Controleer je licentie sleutel"
+
+#: plugins/Licensing/Licensing.php:290
+#, php-format
+msgid "Your license is valid, and expires on: %s"
+msgstr "Je licentie is geldig en verloopt op: %s"
+
+#: plugins/Licensing/Licensing.php:292
+msgid "Enter your license here so you keep receiving updates and support."
+msgstr ""
+"Vul je licentie hier in zodat je updates en ondersteuning blijft ontvangen"
+
+#: plugins/Licensing/Licensing.php:307
+msgid "License Key"
+msgstr "Licentie sleutel"
+
+#: plugins/Licensing/Licensing.php:313
+msgid "active"
+msgstr "actief"
+
+#: plugins/Licensing/Licensing.php:315
+msgid "Deactivate License"
+msgstr "Deactiveer licentie"
+
+#: plugins/Licensing/Licensing.php:317
+msgid "Activate License"
+msgstr "Activeer licentie"
+
+#: plugins/Licensing/Licensing.php:320
+msgid "Enter your license key"
+msgstr "Vul je licentie sleutel in"
+
+#: plugins/Licensing/Licensing.php:327
+msgid "Save changes"
+msgstr "Instellingen opslaan"
+
+#: plugins/Licensing/Licensing.php:340
+msgid "This is not a valid license"
+msgstr "Dit is geen geldige licentie"
+
+#: plugins/Licensing/Licensing.php:345
+msgid "Your license is expired. Please renew your license at %ziprecipes.net%s"
+msgstr "Je licentie is verlopen. Verleng je licentie op %ziprecipes.net%s"
+
+#: plugins/Licensing/Licensing.php:348
+#, php-format
+msgid "Your license has been revoked. Please contact %ssupport%s"
+msgstr "Je licentie is ingetrokken. Neem contact op met %ssupport%s"
+
+#: plugins/Licensing/Licensing.php:351
+#, php-format
+msgid ""
+"Your license could not be found in the database. Please contact %ssupport%s"
+msgstr ""
+"Je licentie kon niet worden gevonden in de database. Neem alsjeblieft "
+"contact op met %ssupport%s"
+
+#: plugins/Licensing/Licensing.php:355
+msgid "Your license has not yet been activated for this domain."
+msgstr "Je licentie is nog niet geactiveerd voor dit domein."
+
+#: plugins/Licensing/Licensing.php:358
+msgid "Your license key appears to be invalid."
+msgstr "Je licentie sleutel lijkt ongeldig te zijn."
+
+#: plugins/Licensing/Licensing.php:361
+msgid ""
+"You have no activations left on your license. Please upgrade your license at "
+"%ziprecipes.net%s"
+msgstr ""
+"Je hebt geen activeringen over op je licentie. Waardeer je licentie op op "
+"%ziprecipes.net%s"
+
+#: plugins/Licensing/Licensing.php:368
+msgid "Your license is valid, but has not yet been activated for this domain."
+msgstr "Je licentie is geldig maar nog niet geactiveerd voor dit domein."
+
+#: plugins/Licensing/Licensing.php:377
+msgid "license data error"
+msgstr "licentie-data fout"
+
+#: plugins/Licensing/Licensing.php:426 plugins/Licensing/Licensing.php:481
+msgid "An error occurred while updating the license data, please try again."
+msgstr ""
+"Er is iets misgegaan bij het updaten van de licentie data, probeer het "
+"alsjeblieft opnieuw."
+
+#: plugins/Licensing/ZRDN_SL_Plugin_Updater.php:262
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar. %2$sBekijk versie %3$s "
+"details%4$s."
+
+#: plugins/Licensing/ZRDN_SL_Plugin_Updater.php:270
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar. %2$sBekijk versie %3$s "
+"details%4$s of %5$supdate nu%6$s."
+
+#: plugins/Licensing/ZRDN_SL_Plugin_Updater.php:514
+msgid "You do not have permission to install plugin updates"
+msgstr "Je hebt geen toestemming om plugin updates te installeren"
+
+#: plugins/Licensing/ZRDN_SL_Plugin_Updater.php:514
+msgid "Error"
+msgstr "Fout"
+
+#: plugins/MostPopularRecipes/widget.php:15
+msgid "Most Popular Recipes"
+msgstr "Meest populaire recepten"
+
+#: plugins/MostPopularRecipes/widget.php:16
+msgid "Show the most popular recipes"
+msgstr "Toon de populairste recepten"
+
+#: plugins/MostPopularRecipes/widget.php:144
+msgid "Best Rated Recipes"
+msgstr "Best beoordeelde recepten"
+
+#: plugins/MostPopularRecipes/widget.php:145
+msgid "Show the highest rated recipes"
+msgstr "Toon de best beoordeelde recepten"
+
+#: plugins/RecipeActions/views/RecipeActions.php:8
+msgid "Save to BigOven"
+msgstr "Bewaar op BigOven"
+
+#: plugins/RecipeGrid2/RecipeGrid2.php:382
+msgid "All"
+msgstr "Alle"
+
+#: plugins/RecipeGrid2/views/grid-item.php:2
+#, php-format
+msgid "%s by %s"
+msgstr "%s door %s"
+
+#: plugins/RecipeGrid2/views/grid-wrap.php:20
+msgid "type to search"
+msgstr "type om te zoeken"
+
+#: plugins/RecipeGrid2/views/grid-wrap.php:34
+msgid "LOAD MORE"
+msgstr "MEER LADEN"
+
+#: plugins/RecipeGrid2/views/grid-wrap.php:35
+msgid "All recipes loaded"
+msgstr "Alle recepten geladen"
+
+#: plugins/RecipeReviews/RecipeReviews.php:79
+#: plugins/VisitorRating/VisitorRating.php:71
+msgid "Notifications"
+msgstr "Notificaties"
+
+#: plugins/RecipeReviews/RecipeReviews.php:155
+msgid "Notify admin when a user reviews your recipe"
+msgstr "Melding aan beheerders bij een nieuwe recensie op je recept"
+
+#: plugins/RecipeReviews/RecipeReviews.php:247
+#: plugins/RecipeReviews/views/RecipeReviews.php:30
+#: plugins/VisitorRating/VisitorRating.php:91
+#: plugins/VisitorRating/views/VisitorRating.php:30
+msgid "Your rating:"
+msgstr "Je beoordeling:"
+
+#: plugins/RecipeReviews/RecipeReviews.php:275
+#: plugins/VisitorRating/VisitorRating.php:349
+#, php-format
+msgid "New %s star rating on %s"
+msgstr "Nieuwe %s sterren beoordeling op %s"
+
+#: plugins/RecipeReviews/RecipeReviews.php:276
+#: plugins/VisitorRating/VisitorRating.php:352
+#, php-format
+msgid "You have received a new %s star rating on %s"
+msgstr "Je hebt een nieuwe %s sterren beoordeling ontvangen op %s"
+
+#: plugins/RecipeReviews/RecipeReviews.php:775
+msgid "No reviews"
+msgstr "Geen recensies"
+
+#: plugins/RecipeReviews/views/RecipeReviews.php:4
+#: plugins/VisitorRating/views/VisitorRating.php:4
+msgid "stars"
+msgstr "sterren"
+
+#: plugins/RecipeReviews/views/RecipeReviews.php:4
+#: plugins/RecipeReviews/views/RecipeReviews.php:43
+#: plugins/RecipeReviews/views/RecipeReviews.php:45
+#: plugins/VisitorRating/views/VisitorRating.php:4
+#: plugins/VisitorRating/views/VisitorRating.php:43
+#: plugins/VisitorRating/views/VisitorRating.php:45
+msgid "ratings"
+msgstr "beoordelingen"
+
+#: plugins/RecipeReviews/views/RecipeReviews.php:35
+#: plugins/RecipeReviews/views/comments_fields.php:2
+#: plugins/VisitorRating/views/VisitorRating.php:35
+msgid "Rate this recipe"
+msgstr "Beoordeel dit recept"
+
+#: plugins/RecipeReviews/views/comment_meta_box.php:1
+#: plugins/RecipeReviews/views/comments_modify.php:1
+msgid "Rating"
+msgstr "Beoordeling"
+
+#: plugins/VisitorRating/VisitorRating.php:51
+msgid "Notify admin when a user rates your recipe"
+msgstr "Melding aan beheerders bij een nieuwe beoordeling op je recept"
+
+#: shepherd/tour.php:80
+msgid "Welcome to Zip Recipes"
+msgstr "Welkom bij Zip Recipes"
+
+#: shepherd/tour.php:81
+msgid ""
+"Create beautiful recipes with extended features, optimized for Google. Start "
+"with creating your recipe template or take the tour."
+msgstr ""
+"Maak prachtige recepten met uitgebreide functies, geoptimaliseerd voor "
+"Google. Begin met het maken van je receptensjabloon of doe de rondleiding."
+
+#: shepherd/tour.php:87 shepherd/tour.php:94 shepherd/tour.php:180
+msgid "Create your template"
+msgstr "Maak je sjabloon"
+
+#: shepherd/tour.php:88
+msgid ""
+"Here you will be able to style your recipe card. You can select one of our "
+"favorite templates or customize your recipe card to your liking with our "
+"drag & drop editor."
+msgstr ""
+"Hier kun je jouw receptenkaart vormgeven. Je kunt een van onze favoriete "
+"sjablonen selecteren of je receptkaart naar wens aanpassen met de drag & "
+"drop editor."
+
+#: shepherd/tour.php:95
+msgid ""
+"Edit your recipe blocks for more customization. Drag blocks to inactive or "
+"shuffle them around. You're in control! Want to start over, press reset "
+"template or load a new predefined template"
+msgstr ""
+"Bewerk je receptblokken naar wens. Sleep blokken om ze inactief te maken of "
+"te verschuiven, wat je maar wilt! Wil je opnieuw beginnen, druk op 'reset "
+"sjabloon' of laad een nieuw voorgedefinieerd sjabloon"
+
+#: shepherd/tour.php:102
+msgid ""
+"In our settings overview you will find general settings for your recipe card "
+"and demo's for our templates. If you need help configuring, please ask "
+"support or have a look at our documentation."
+msgstr ""
+"In het instellingen overzicht vind je algemene instellingen voor je "
+"receptkaart en demo's van de sjablonen. Neem contact op met onze "
+"klantenservice of bekijk de documentatie als je hulp nodig hebt bij het "
+"configureren."
+
+#: shepherd/tour.php:110
+msgid ""
+"Have a look at our premium add-ons for ZIP Recipes, taking your recipes to a "
+"whole new level!"
+msgstr ""
+"Neem een kijkje naar de Premium uitbreidingen voor Zip Recipes, waarmee je "
+"recepten naar een ongekend niveau worden getild!"
+
+#: shepherd/tour.php:117
+msgid "Create your recipe"
+msgstr "Maak je recept"
+
+#: shepherd/tour.php:118
+msgid ""
+"Here you can start creating your recipes and have an overview of the most "
+"important metrics per recipe, including your most popular recipes."
+msgstr ""
+"Hier kun je beginnen met het maken van je recepten en heb je een overzicht "
+"van de belangrijkste statistieken per recept, inclusief je meest populaire "
+"recepten."
+
+#: shepherd/tour.php:124
+msgid "Editing your recipes"
+msgstr "Aanpassen van je recepten"
+
+#: shepherd/tour.php:125
+msgid ""
+"The WYSIWYG editor will lead you through the process of creating each new "
+"recipe. A preview will be available immediately. Want to create a recipe "
+"directly in your WordPress editor. No problem!."
+msgstr ""
+"De WYSIWYG-editor leidt je door het proces van het maken van elk nieuw "
+"recept. De voorvertoning laat veranderingen meteen zien.Een voorvertoning "
+"zal onmiddellijk beschikbaar zijn. Wil je een recept direct in je WordPress-"
+"editor aanmaken? Geen probleem!"
+
+#: shepherd/tour.php:131
+msgid "The preview recipe"
+msgstr ""
+
+#: shepherd/tour.php:132
+msgid ""
+"To make the preview as accurate as possible, Zip Recipes uses a private post."
+" A private post is only visible to you. We recommend not to delete this post."
+msgstr ""
+
+#: shepherd/tour.php:142
+msgid "Editing in Gutenberg"
+msgstr "Aanpassen in Gutenberg"
+
+#: shepherd/tour.php:143 shepherd/tour.php:150
+msgid ""
+"Add a Zip Recipes block, then click the block, and the 'cog' wheel on the "
+"right top to add a new recipe, or to choose an existing recipe."
+msgstr ""
+"Voeg een Zip Recipes blok toe, klik dan op het blok en het 'tandwiel' "
+"rechtsboven om een nieuw recept toe te voegen, of om een bestaand recept te "
+"kiezen."
+
+#: shepherd/tour.php:149 shepherd/tour.php:164
+msgid "The end"
+msgstr "Einde"
+
+#: shepherd/tour.php:157
+msgid "Editing in classic editor"
+msgstr "Aanpassen in de Classic Editor"
+
+#: shepherd/tour.php:158
+msgid ""
+"Click on 'create recipe' to start creating a new recipe, or choose an "
+"existing recipe."
+msgstr ""
+"Klik op 'recept maken' om een nieuw recept aan te maken, of kies een "
+"bestaand recept."
+
+#: shepherd/tour.php:165
+msgid ""
+"Get started. Start with your new template and go from there. You can start "
+"the tour anytime under Settings. Good luck!"
+msgstr ""
+"Meteen aan de slag! Begin met je nieuwe sjabloon en ga vanaf daar verder. Je "
+"kunt de rondleiding ieder moment starten onder Instellingen. Succes!"
+
+#: shepherd/tour.php:178
+msgid "Next"
+msgstr "Volgende"
+
+#: shepherd/tour.php:179
+msgid "Previous"
+msgstr "Vorige"
+
+#: shepherd/tour.php:182
+msgid "End tour"
+msgstr "Beëindig de rondleiding"
+
+#: src/block.php:88
+msgid "Recipe not found"
+msgstr "Recept niet gevonden"
+
+#: views/about_extensions.php:3
+msgid ""
+"Get the full benefits of Zip Recipes by upgrading to a premium plan, with "
+"lots of great add-ons. Even better, each add-on we will add to the plan in "
+"the future will automatically become available for you."
+msgstr ""
+"Ervaar alle fantastische functies van Zip Recipes door te upgraden naar een "
+"Premium uitbreiding, met allerlei handige uitbreidingen en continue "
+"ontwikkeling van nieuwe functies."
+
+#: views/actions.php:6
+msgid "Print"
+msgstr "Afdrukken"
+
+#: views/actions.php:14 views/actions.php:15
+msgid "Print this recipe"
+msgstr "Print dit recept"
+
+#: views/author.php:14
+msgid "by"
+msgstr "door"
+
+#: views/details.php:14
+msgid "Persons"
+msgstr "Personen"
+
+#: views/details.php:23
+msgid "Serving Size"
+msgstr "Portie"
+
+#: views/details.php:32
+msgid "Prep Time"
+msgstr "Voorbereidingstijd"
+
+#: views/details.php:41
+msgid "Cook Time"
+msgstr "Kooktijd"
+
+#: views/details.php:50
+msgid "Wait Time"
+msgstr "Wacht tijd"
+
+#: views/details.php:59
+msgid "Total Time"
+msgstr "Totale tijd"
+
+#: views/nutrition-label-html.php:4
+msgid "Nutrition Facts"
+msgstr "Voedingswaarde gegevens"
+
+#: views/nutrition-label-html.php:11
+msgid "Serves"
+msgstr "Personen"
+
+#: views/nutrition-label-html.php:17
+msgid "Amount Per Serving"
+msgstr "Hoeveelheid per portie"
+
+#: views/nutrition-label-html.php:32
+msgid "% Daily Value*"
+msgstr "ADH*"
+
+#: views/nutrition-label-html.php:37
+msgid "Total Fat"
+msgstr "Totale hoeveelheid vet:"
+
+#: views/nutrition-label-html.php:48
+msgid "Saturated Fat"
+msgstr "Verzadigd vet:"
+
+#: views/nutrition-label-html.php:59
+msgid "Trans Fat"
+msgstr "Transvetten"
+
+#: views/nutrition-label-html.php:85
+msgid "Total Carbohydrate"
+msgstr "Totaal koolhydraten"
+
+#: views/nutrition-label-html.php:96
+msgid "Dietary Fiber"
+msgstr "Voedingsvezel"
+
+#: views/nutrition-label-html.php:107
+msgid "Sugars"
+msgstr "Suikers"
+
+#: views/nutrition-label-html.php:149
+msgid ""
+"* Percent Daily Values are based on a 2,000 calorie diet. Your daily values "
+"may be higher or lower depending on your calorie needs."
+msgstr ""
+"*ADH is gebaseerd op een inname van 2000 calorieen. Jouw ADH kan hoger of "
+"lager zijn, afhankelijk van jouw calorie behoefte"
+
+#: views/nutrition_text.php:27
+msgid "Saturated"
+msgstr "Verzadigd"
+
+#: views/nutrition_text.php:93
+msgid ""
+"Percent Daily Values are based on a 2,000 calorie diet. Your daily values "
+"may be higher or lower depending on your calorie needs."
+msgstr ""
+
+#: views/other-plugins.php:14
+msgid "Install"
+msgstr "Installeer"
+
+#: views/other-plugins.php:18
+msgid "Upgrade to pro"
+msgstr "Upgrade naar Pro"
+
+#: views/other-plugins.php:21
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: views/other-plugins.php:53
+msgid "WP Search Insights - Track searches on your website"
+msgstr "WP Search Insights - Analyseer zoekgedrag op je site"
+
+#: views/other-plugins.php:64
+msgid "Complianz Privacy Suite - Consent Management as it should be "
+msgstr "Complianz Privacy Suite - Cookie toestemming zoals het hoort"
+
+#: views/other-plugins.php:75
+msgid "Really Simple SSL - Your Website SSL in one click"
+msgstr "Really Simple SSL - Je website over SSL in één klik"
+
+#: views/social_sharing.php:1
+msgid "Share on social"
+msgstr "Deel op social media"
+
+#: views/tags.php:27
+msgid "No tags found"
+msgstr "Geen tags gevonden"
+
+#: views/toolbar.php:129
+msgid "Recipe selection updated. Time to save!"
+msgstr "Recept selectie bijgewerkt. Tijd om op te slaan!"
+
+#: views/toolbar.php:130
+msgid ""
+"Selecting a recipe that is linked to another post will unlink it from that "
+"post!"
+msgstr ""
+"Door een recept te selecteren dat aan een andere post is gekoppeld ontkoppel "
+"je het van die andere post!"
+
+#: views/toolbar.php:131
+msgid "Show only recipes without post"
+msgstr "Laat alleen recepten zonder bericht zien"
+
+#: views/toolbar.php:134 views/toolbar.php:142
+msgid "No recipe selected"
+msgstr "Geen recept geselecteerd"
+
+#: views/toolbar.php:161
+msgid "Create and insert new recipe"
+msgstr "Maak een nieuw recept en voeg dat toe"
+
+#: views/toolbar.php:164
+msgid ""
+"Creating and inserting a new recipe will unlink the current recipe from this "
+"post."
+msgstr ""
+"Als je een nieuw recept maakt en toevoegt wordt het huidige recept "
+"losgekoppeld van deze post."
+
+#: zip-recipes-lover.php:45
+msgid "Zip Recipes cannot be activated. The plugin requires PHP 5.6 or higher"
+msgstr ""
+"Zip Recipes kan niet worden geactiveerd. De plugin vereist PHP 5.6 of hoger"
+
+#: zip-recipes-lover.php:51
+msgid ""
+"Zip Recipes cannot be activated. The plugin requires WordPress 4.6 or higher"
+msgstr ""
+"Zip Recipes kan niet worden geactiveerd. De plugin vereist WordPress 4.6 of "
+"hoger"
+
+#. Plugin Name of the plugin/theme
+msgid "Zip Recipes Lover"
+msgstr "Zip Recipes Lover"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.ziprecipes.net/"
+msgstr "http://www.ziprecipes.net/"
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin that adds all the necessary microdata to your recipes, so they will "
+"show up in Google's Recipe Search"
+msgstr ""
+"Een plugin die alle noodzakelijke microdata toevoegt aan je recepten, zodat "
+"ze verschijnen in Google Recipe Search"
+
+#. Author of the plugin/theme
+msgid "Really Simple Plugins"
+msgstr "Really Simple Plugins"
