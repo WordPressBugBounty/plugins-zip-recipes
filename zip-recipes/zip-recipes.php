@@ -7,7 +7,7 @@
     Plugin URI: https://ziprecipes.net/
     Plugin GitHub: https://github.com/really-simple-plugins/zip-recipes-free
     Description: A plugin that adds all the necessary microdata to your recipes, so they will show up in Google's Recipe Search
-    Version: 8.2.6
+    Version: 8.2.8
     Author: Igor Benić
     Author URI: https://ibenic.com/
     License: GPLv3 or later
@@ -39,20 +39,21 @@ if ( !function_exists( '\\ZRDN\\zr_fs' ) ) {
             // Include Freemius SDK.
             require_once dirname( __FILE__ ) . '/freemius/start.php';
             $zr_fs = fs_dynamic_init( array(
-                'id'             => '14746',
-                'slug'           => 'zip-recipes',
-                'premium_slug'   => 'zip-recipes-lover',
-                'type'           => 'plugin',
-                'public_key'     => 'pk_8fce9733a1349d1c76abfbef87413',
-                'is_premium'     => false,
-                'premium_suffix' => 'Lover',
-                'has_addons'     => false,
-                'has_paid_plans' => true,
-                'menu'           => array(
+                'id'               => '14746',
+                'slug'             => 'zip-recipes',
+                'premium_slug'     => 'zip-recipes-lover',
+                'type'             => 'plugin',
+                'public_key'       => 'pk_8fce9733a1349d1c76abfbef87413',
+                'is_premium'       => false,
+                'premium_suffix'   => 'Lover',
+                'has_addons'       => false,
+                'has_paid_plans'   => true,
+                'menu'             => array(
                     'slug'    => 'zrdn-recipes',
                     'support' => false,
                 ),
-                'is_live'        => true,
+                'is_live'          => true,
+                'is_org_compliant' => true,
             ) );
         }
         return $zr_fs;
@@ -137,7 +138,7 @@ if ( defined( 'ZRDN_PLUGIN_BASENAME' ) ) {
     define( 'ZRDN_PATH', plugin_dir_path( __FILE__ ) );
     define( 'ZRDN_PLUGIN_PRODUCT_NAME', 'Zip Recipes Lover' );
     $debug = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? time() : '' );
-    define( 'ZRDN_VERSION_NUM', '8.2.4' . $debug );
+    define( 'ZRDN_VERSION_NUM', '8.2.8' . $debug );
     if ( !defined( 'ZRDN_PREMIUM' ) ) {
         define( 'ZRDN_FREE', true );
     }

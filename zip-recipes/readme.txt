@@ -8,8 +8,8 @@ Author: Simple Giveaways
 Donate link: https://www.paypal.me/reallysimplessl
 Tags: recipe, schema.org, seo, food, recipe card, recipe box, print recipe, recipe seo, cooking, nutrition
 Requires at least: 4.8
-Tested up to: 6.5.2
-Stable tag: 8.2.6
+Tested up to: 7.0.0
+Stable tag: 8.2.8
 Requires PHP: 7.2
 
 Zip Recipes is the best way to easily create a beautiful food blog with professional looking recipes that can be found by Google. AMP (Accelerated Mobile Pages) compatible. Would you like to see what Zip Recipes can do for you? Visit our demo website: [demo.ziprecipes.net!](https://demo.ziprecipes.net/)
@@ -27,6 +27,10 @@ We help you do that through our 4-step formula:
 Still got questions? [Go to our website for support](https://www.ziprecipes.net/support) or [email us](mailto:support@ziprecipes.net).
 
 == Changelog ==
+
+= 8.2.8 =
+* Security Fix
+
 = 8.2.6 =
 * New: Nutrition Details Block
 * Bug fixes

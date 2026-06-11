@@ -1722,7 +1722,7 @@ class Util {
         }
 
         if ( $args['cuisine'] !=='' ) {
-	        $search_sql .= " AND ( cuisine = '".$args['cuisine']."')";
+	        $search_sql .= $wpdb->prepare( " AND ( cuisine = %s)", $args['cuisine'] );
         }
 
         $offset = $args['number']!=-1 ? $offset = "LIMIT $offset, $pagesize" : '';
